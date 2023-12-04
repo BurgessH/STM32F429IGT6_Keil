@@ -1,7 +1,7 @@
 ..\..\output\main.o: ..\..\User\main.c
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\main.o: F:\SoftWare\Keil\install\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\main.o: E:\Softwares\Keil\install\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h
@@ -37,13 +37,13 @@
 ..\..\output\main.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h
 ..\..\output\main.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h
 ..\..\output\main.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
-..\..\output\main.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtthread.h
+..\..\output\main.o: E:\Softwares\Keil\install\ARM\PACK\RealThread\RT-Thread\3.1.5\include\rtthread.h
 ..\..\output\main.o: .\RTE\RTOS\rtconfig.h
 ..\..\output\main.o: ..\..\User\components\finsh\finsh_config.h
-..\..\output\main.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdebug.h
-..\..\output\main.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdef.h
-..\..\output\main.o: F:\SoftWare\Keil\install\ARM\ARMCC\Bin\..\include\stdarg.h
-..\..\output\main.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtservice.h
+..\..\output\main.o: E:\Softwares\Keil\install\ARM\PACK\RealThread\RT-Thread\3.1.5\include\rtdebug.h
+..\..\output\main.o: E:\Softwares\Keil\install\ARM\PACK\RealThread\RT-Thread\3.1.5\include\rtdef.h
+..\..\output\main.o: E:\Softwares\Keil\install\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\output\main.o: E:\Softwares\Keil\install\ARM\PACK\RealThread\RT-Thread\3.1.5\include\rtservice.h
 ..\..\output\main.o: ..\..\User\components\finsh\finsh_api.h
 ..\..\output\main.o: ..\..\User\./led/bsp_led.h
 ..\..\output\main.o: ..\..\User\./key/bsp_exti.h

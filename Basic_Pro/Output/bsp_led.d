@@ -2,7 +2,7 @@
 ..\..\output\bsp_led.o: ..\..\User\./led/bsp_led.h
 ..\..\output\bsp_led.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\bsp_led.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\bsp_led.o: F:\SoftWare\Keil\install\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\bsp_led.o: E:\Softwares\Keil\install\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\bsp_led.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\bsp_led.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\bsp_led.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h

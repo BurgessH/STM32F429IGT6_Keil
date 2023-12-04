@@ -1,6 +1,4 @@
- 
 #include "stm32f4xx.h"
-
 #include <rtthread.h>
 
 #include "./led/bsp_led.h"
@@ -28,9 +26,18 @@ int main(void)
 		LED1_OFF;	//hight Ãð
 		LED2_OFF;	//hight Ãð
 		rt_thread_mdelay(1000);
+		
 		//rt_kprintf("LED1_OFF blink...\r\n");
 	}
 }
+
+
+
+
+
+
+
+
 
 
 /*********************END OF FILE*************************/

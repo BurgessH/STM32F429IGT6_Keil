@@ -62,6 +62,7 @@ void rt_hw_board_init(void)
 	SysTick_Config(msCnt);
 	
 	myuart_init();
+	
     /* Call components board initial (use INIT_BOARD_EXPORT()) */
 #ifdef RT_USING_COMPONENTS_INIT
     rt_components_board_init();

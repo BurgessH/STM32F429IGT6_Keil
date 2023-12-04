@@ -1,0 +1,10 @@
+..\..\output\components.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\src\components.c
+..\..\output\components.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rthw.h
+..\..\output\components.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtthread.h
+..\..\output\components.o: .\RTE\RTOS\rtconfig.h
+..\..\output\components.o: ..\..\User\components\finsh\finsh_config.h
+..\..\output\components.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdebug.h
+..\..\output\components.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdef.h
+..\..\output\components.o: F:\SoftWare\Keil\install\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\output\components.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtservice.h
+..\..\output\components.o: ..\..\User\components\finsh\finsh_api.h

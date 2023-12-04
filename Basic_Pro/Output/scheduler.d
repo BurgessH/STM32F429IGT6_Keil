@@ -1,0 +1,10 @@
+..\..\output\scheduler.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\src\scheduler.c
+..\..\output\scheduler.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtthread.h
+..\..\output\scheduler.o: .\RTE\RTOS\rtconfig.h
+..\..\output\scheduler.o: ..\..\User\components\finsh\finsh_config.h
+..\..\output\scheduler.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdebug.h
+..\..\output\scheduler.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdef.h
+..\..\output\scheduler.o: F:\SoftWare\Keil\install\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\output\scheduler.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtservice.h
+..\..\output\scheduler.o: ..\..\User\components\finsh\finsh_api.h
+..\..\output\scheduler.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rthw.h

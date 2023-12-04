@@ -1,0 +1,10 @@
+..\..\output\kservice.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\src\kservice.c
+..\..\output\kservice.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtthread.h
+..\..\output\kservice.o: .\RTE\RTOS\rtconfig.h
+..\..\output\kservice.o: ..\..\User\components\finsh\finsh_config.h
+..\..\output\kservice.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdebug.h
+..\..\output\kservice.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtdef.h
+..\..\output\kservice.o: F:\SoftWare\Keil\install\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\output\kservice.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rtservice.h
+..\..\output\kservice.o: ..\..\User\components\finsh\finsh_api.h
+..\..\output\kservice.o: F:\SoftWare\Keil\install\RealThread\RT-Thread\3.1.5\include\rthw.h

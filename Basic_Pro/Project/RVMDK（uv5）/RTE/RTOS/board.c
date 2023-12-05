@@ -8,12 +8,7 @@
  * 2021-05-24                  the first version
  */
 
-#include <rthw.h>
-#include <rtthread.h>
-
-#include "stm32f4xx.h"
-#include  "./uart/bsp_uart.h" 
-
+#include "./board.h"
 
 
 #if defined(RT_USING_USER_MAIN) && defined(RT_USING_HEAP)
@@ -61,7 +56,17 @@ void rt_hw_board_init(void)
 	msCnt = SystemCoreClock/RT_TICK_PER_SECOND;
 	SysTick_Config(msCnt);
 	
+	
+	/* LED init*/
+	LED_GPIO_Config();
+	
+	//UART int
 	myuart_init();
+	
+	EXTI_Key_Config(); 
+	
+	
+	
 	
     /* Call components board initial (use INIT_BOARD_EXPORT()) */
 #ifdef RT_USING_COMPONENTS_INIT

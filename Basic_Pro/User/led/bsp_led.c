@@ -11,16 +11,16 @@ void LED_GPIO_Config(void)
 	RCC_AHB1PeriphClockCmd (LED1_GPIO_CLK, ENABLE); 
 
 	/*选择要控制的GPIO引脚*/															   
-	GPIO_InitStructure.GPIO_Pin 	= LED1_PIN;	
+	GPIO_InitStructure.GPIO_Pin 		= LED1_PIN;	
 
 	/*设置引脚模式为输出模式*/
-	GPIO_InitStructure.GPIO_Mode 	= GPIO_Mode_OUT;   
+	GPIO_InitStructure.GPIO_Mode 		= GPIO_Mode_OUT;   
 
 	/*设置引脚的输出类型为推挽输出*/
 	GPIO_InitStructure.GPIO_OType 	= GPIO_OType_PP;
 
 	/*设置引脚为上拉模式*/
-	GPIO_InitStructure.GPIO_PuPd 	= GPIO_PuPd_UP;
+	GPIO_InitStructure.GPIO_PuPd 		= GPIO_PuPd_UP;
 
 	/*设置引脚速率为2MHz */   
 	GPIO_InitStructure.GPIO_Speed 	= GPIO_Speed_2MHz; 
@@ -29,15 +29,12 @@ void LED_GPIO_Config(void)
 	GPIO_Init(LED1_GPIO_PORT, &GPIO_InitStructure);	
 
 	/*选择要控制的GPIO引脚*/															   
-	GPIO_InitStructure.GPIO_Pin 	= LED2_PIN;	
+	GPIO_InitStructure.GPIO_Pin 		= LED2_PIN;	
 	GPIO_Init(LED2_GPIO_PORT, &GPIO_InitStructure);	
 
 	/*关闭RGB灯*/
 	LED1_OFF;	//hight 灭
 	LED2_OFF;	//hight 灭
 	
-
-	
-
 }
-/*********************************************END OF FILE**********************/
+

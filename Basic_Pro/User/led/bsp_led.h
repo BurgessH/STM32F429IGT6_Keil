@@ -37,9 +37,9 @@
 					GPIO_ResetBits(LED2_GPIO_PORT,	LED2_PIN)
 
 /* 直接操作寄存器的方法控制IO */
-#define	digitalHi(p,i)			 {p->BSRRL=i;}		//设置为高电平
-#define digitalLo(p,i)			 {p->BSRRH=i;}		//输出低电平
-#define digitalToggle(p,i)	 	 {p->ODR ^=i;}		//输出反转状态
+#define	digitalHi(p,i)			 		{p->BSRRL=i;}		//设置为高电平
+#define digitalLo(p,i)			 		{p->BSRRH=i;}		//输出低电平
+#define digitalToggle(p,i)	 	 	{p->ODR ^=i;}		//输出反转状态
 
 /* 定义控制IO的宏 */
 #define LED1_TOGGLE		digitalToggle(LED1_GPIO_PORT, LED1_PIN)

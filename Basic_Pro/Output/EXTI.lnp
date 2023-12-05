@@ -45,6 +45,7 @@
 "..\..\output\bsp_led.o"
 "..\..\output\bsp_exti.o"
 "..\..\output\bsp_uart.o"
+"..\..\output\bsp_led_link.o"
 "..\..\output\cmd.o"
 "..\..\output\finsh_port.o"
 "..\..\output\msh.o"
